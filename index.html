@@ -23,7 +23,7 @@
                     <input type="button" value="AC" onclick="monitor.value = '' ">
                     <input type="button" value="DE" onclick="monitor.value = monitor.value.toString().slice(0,-1) ">
                     <input type="button" value="."  onclick="monitor.value += '.' ">
-                    <input type="button" value="÷"  onclick="monitor.value += '/' ">
+                    <input class="divide" type="button" value="÷"  onclick="monitor.value += '÷' ">
                     <!-- ÷ -->
                 </div>
 
@@ -32,7 +32,7 @@
                     <input type="button" value ="7" onclick="monitor.value += '7' ">
                     <input type="button" value ="8" onclick="monitor.value += '8' ">
                     <input type="button" value ="9" onclick="monitor.value += '9' ">
-                    <input type="button" value ="x" onclick="monitor.value += '*' ">
+                    <input type="button" value ="x" onclick="monitor.value += 'x' ">
                 </div>
 
                 <!-- row 3 -->
@@ -54,7 +54,7 @@
                 <div class="rows">
                     <input type="button" value = "00" onclick="monitor.value += '00' ">
                     <input type="button" value = "0" onclick="monitor.value += '0' ">
-                    <input type="button" value = "=" class="equal-btn" onclick="monitor.value = eval(monitor.value) ">
+                    <input type="button" value = "=" class="equal-btn" >
                 </div>
 
             </form>
