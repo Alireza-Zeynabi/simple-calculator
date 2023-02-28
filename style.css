@@ -1,0 +1,40 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color: rgb(84, 84, 84);
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 10px;
+}
+.cl-monitor input{
+    background-color: transparent;
+    width: 97%;
+    height: 70px;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    text-align: right;
+}
+
+.rows input{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: rgb(65, 65, 65);
+    margin: 5px;
+    color: #fff;
+    box-shadow: -6px -5px 4px rgba(54, 54, 54, 0.81);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.rows input.equal-btn{
+    width: 115px;
+}
+
